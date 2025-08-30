@@ -166,7 +166,7 @@ git commit -m "chore: ajusta .gitignore"
 
 ## 📄 Licença
 
-Este projeto é para **fins educacionais** (bootcamp DIO). Adapte a licença conforme sua necessidade (ex.: MIT).
+Este projeto é para **fins educacionais** (bootcamp DIO).
 
 ---
 
