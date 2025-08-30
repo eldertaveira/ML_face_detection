@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE/Editor ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- SO / lixo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets ---
+.env
+*.env
+
+# --- Artefatos do projeto ---
+# outputs: imagens anotadas, logs, etc.
+outputs/*
+!outputs/.gitkeep
+
+# models: pesos baixados (caffemodel), etc.
+models/*
+!models/.gitkeep
+# se quiser versionar prototxt (é pequeno), descomente a linha abaixo
+#!models/*.prototxt
+
+# data: evite versionar dados brutos
+data/*
+!data/.gitkeep
+
+# temporários
+tmp/
+*.log
